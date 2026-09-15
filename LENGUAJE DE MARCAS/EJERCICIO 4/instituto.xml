@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<instituto>
+<alumnnos>
+    <alumno id="1">
+        <nombre>Juan</nombre>
+        <apellido>Pérez</apellido>
+        <edad>20</edad>
+        <curso>1º DAM</curso>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+            <nota>8.5</nota>
+            <asignatura>Base de datos</asignatura>
+            <nota>7.0</nota>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <nota>9.0</nota>
+            <asignatura>Entornos de desarrollo</asignatura>
+            <nota>6.5</nota>
+        </asignaturas>
+            
+    </alumno>
+      <alumno id="2">
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>21</edad>
+        <curso>2º DAM</curso>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+            <nota>7.5</nota>
+            <asignatura>Base de datos</asignatura>
+            <nota>8.0</nota>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <nota>9.5</nota>
+            <asignatura>Entornos de desarrollo</asignatura>
+            <nota>7.0</nota>
+
+        </asignaturas>
+    </alumno>
+       <alumno id="3">
+        <nombre>Carlos</nombre>
+        <apellido>García</apellido>
+        <edad>22</edad>
+        <curso>1º DAM</curso>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+            <nota>6.5</nota>
+            <asignatura>Base de datos</asignatura>
+            <nota>7.5</nota>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <nota>8.0</nota>
+            <asignatura>Entornos de desarrollo</asignatura>
+            <nota>9.0</nota>
+        </asignaturas> 
+    </alumno>
+    <alumno id="4">
+        <nombre>Ana</nombre>
+        <apellido>Martínez</apellido>
+        <edad>20</edad>
+        <curso>2º DAM</curso>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+            <nota>8.5</nota>
+            <asignatura>Base de datos</asignatura>
+            <nota>7.0</nota>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <nota>9.0</nota>
+            <asignatura>Entornos de desarrollo</asignatura>
+            <nota>6.5</nota>
+        </asignaturas>
+    </alumno>
+</alumnnos>
+<profesores>
+    <profesor id="1">
+        <nombre>Pedro</nombre>
+        <apellido>Gómez</apellido>
+        <edad>35</edad>
+        <asignatura>Programación</asignatura>
+    </profesor>
+    <profesor id="2">
+        <nombre>Laura</nombre>
+        <apellido>Fernández</apellido>
+        <edad>40</edad>
+        <asignatura>Base de datos</asignatura>
+    </profesor>
+    <profesor id="3">
+        <nombre>Javier</nombre>
+        <apellido>López</apellido>
+        <edad>38</edad>
+        <asignatura>Lenguaje de marcas</asignatura>
+    </profesor>
+</profesores>
+<asigaturas>
+    <asignatura id="1">
+        <nombre>Programación</nombre>
+        <curso>1º DAM</curso>
+        <profesor>Pedro Gómez</profesor>
+    </asignatura>
+    <asignatura id="2">
+        <nombre>Base de datos</nombre>
+        <curso>2º DAM</curso>
+        <profesor>Laura Fernández</profesor>
+    </asignatura>
+    <asignatura id="3">
+        <nombre>Lenguaje de marcas</nombre>
+        <curso>1º DAM</curso>
+        <profesor>Javier López</profesor>
+    </asignatura>
+    <asignatura id="4">
+        <nombre>Entornos de desarrollo</nombre>
+        <curso>2º DAM</curso>
+        <profesor>Pedro Gómez</profesor>
+    </asignatura>
+</asigaturas>
+</instituto>
+
+
+   

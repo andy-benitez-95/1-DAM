@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<libro>
+    <titulo>El Quijote</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <editorial>Editorial Planeta</editorial>
+    <anio>1605</anio>
+    <genero>Novela</genero>
+</libro>

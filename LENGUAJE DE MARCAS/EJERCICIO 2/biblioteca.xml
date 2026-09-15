@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<biblioteca>
+    <libro>
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <editorial>Editorial Planeta</editorial>
+        <anio>1605</anio>
+        <genero>Novela</genero>
+        <isbn>978-84-08-03961-1</isbn>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <editorial>Editorial Sudamericana</editorial>
+        <anio>1967</anio>
+        <genero>Novela</genero>
+        <isbn>978-84-376-0494-7</isbn>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <editorial>Secker & Warburg</editorial>
+        <anio>1949</anio>
+        <genero>Distopía</genero>
+        <isbn>978-0-452-28423-4</isbn>
+    </libro>
+    <libro>
+        <titulo>Orgullo y prejuicio</titulo>
+        <autor>Jane Austen</autor>
+        <editorial>T. Egerton, Whitehall</editorial>
+        <anio>1813</anio>
+        <genero>Romance</genero>
+        <isbn>978-0-19-953556-9</isbn>
+    </libro>
+    <libro>
+        <titulo>Matar a un ruiseñor</titulo>
+        <autor>Harper Lee</autor>
+        <editorial>J.B. Lippincott & Co.</editorial>
+        <anio>1960</anio>
+        <genero>Novela de formación</genero>
+        <isbn>978-0-06-112008-4</isbn>
+    </libro>
+</biblioteca>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<tienda> 
+    <producto id="1">
+        <nombre>teclado</nombre>    
+        <marca>logitech</marca>
+        <precio>20.00</precio>
+        <stock>50</stock>
+        <categoria>perifericos</categoria>
+    </producto> 
+    <producto id="2">
+        <nombre>raton</nombre>    
+        <marca>logitech</marca>
+        <precio>15.00</precio>
+        <stock>100</stock>
+        <categoria>perifericos</categoria>
+    </producto>
+    <producto id="3">
+        <nombre>monitor</nombre>    
+        <marca>samsung</marca>
+        <precio>150.00</precio>
+        <stock>30</stock>
+        <categoria>pantallas</categoria>
+    </producto>
+    <producto id="4">
+        <nombre>portatil</nombre>    
+        <marca>lenovo</marca>
+        <precio>500.00</precio>
+        <stock>20</stock>
+        <categoria>ordenadores</categoria>
+    </producto>
+    <producto id="5">
+        <nombre>auriculares</nombre>    
+        <marca>sony</marca>
+        <precio>30.00</precio>
+        <stock>70</stock>
+        <categoria>audio</categoria>
+    </producto> 
+
+        
+
+
+</tienda>
