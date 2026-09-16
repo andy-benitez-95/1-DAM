@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <style>
-        body {
-            background-color: #110d49;
-            color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 700px;
-            margin: 40px auto;
-            padding: 0 20px;
-            line-height: 1.6;
-            font-size: 18px;        }
-        h1 {
-            color: #8fb2f7;
-        }
-        a {
-            color: #4e95f8;
-        }
-    </style>
+   <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andy</title>
@@ -37,7 +21,7 @@
 <img src="https://picsum.photos/400/200" alt="imagen de ejemplo">
 
 
-
+<p>     </p>
 
 <!-- Estp es un comentario: el navegador no lo muestra-->
 <button onclick="saludar()">click aqui si eres programador</button> 
@@ -65,6 +49,9 @@
         cuenta = 0
         document.getElementById("marcador").textContent = cuenta;
     }
+    function mostrarSorpresa() {
+        alert("Felicidades, has encontrado la sorpresa! 🎉");
+    }
 </script>  
 
 
@@ -72,5 +59,8 @@
 <button onclick="sumar()">sumar 1</button>
 <button onclick="restar()">restar 1  </button>
 <button onclick="reiniciar()">reiniciar </button> 
+<button onclick="mostrarSorpresa()">Sorpresa</button>
+<p><a href="aficiones.html">Ver mis aficiones</a></p>
+
 </body>
 </html>
