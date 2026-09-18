@@ -6,21 +6,7 @@
             <nombre>Juan</nombre>
             <apellido>Pérez</apellido>
             <direccion>Calle Mayor, 10</direccion>
-            <lista_productos>
-                <producto id="PR001">
-                    <nombre>teclado</nombre>
-                    <marca>logitech</marca>
-                    <precio>20.00</precio>
-                    <cantidad>2</cantidad>
-                </producto>
-                <producto id="PR002">
-                    <nombre>raton</nombre>
-                    <marca>logitech</marca>
-                    <precio>15.00</precio>
-                    <cantidad>1</cantidad>
-                </producto>
-                
-                </lista_productos>
+       
         </cliente>
     <lista_productos>
         <producto id="PR001">
@@ -43,25 +29,10 @@
         <cliente>
             <nombre>María</nombre>
             <apellido>López</apellido>
-            <direccion>Calle del Sol, 5</direccion>
-            <lista_productos>
-                <producto id="PR003">
-                    <nombre>monitor</nombre>
-                    <marca>samsung</marca>
-                    <precio>150.00</precio>
-                    <cantidad>1</cantidad>
-                </producto>
-                <producto id="PR004">
-                    <nombre>auriculares</nombre>
-                    <marca>sony</marca>
-                    <precio>30.00</precio>
-                    <cantidad>1</cantidad>
-                </producto>
-                
-        </lista_productos>
-        <total>180.00</total>
+            <direccion>Calle del Sol, 5</direccion>          
+        
         </cliente>
-        <lista_productos>
+    <lista_productos>
                 <producto id="PR003">
                     <nombre>monitor</nombre>
                     <marca>samsung</marca>
@@ -75,8 +46,8 @@
                     <cantidad>1</cantidad>
                 </producto>
                 
-        </lista_productos>
-        <total>180.00</total>
+    </lista_productos>
+    <total>180.00</total>
     
     </pedido>
     <pedido id="3">
