@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<tienda_online>
+    <informacion_general>
+      <nombre>Tienda Online</nombre>
+      <direccion>Calle Falsa 123</direccion>
+      <CIF>12345678A</CIF>
+      <telefono>123456789</telefono>
+      <email></email>
+    </informacion_general>
+    <catalogo_productos>
+        <producto id="PR001">
+            <nombre>teclado</nombre>
+            <marca>logitech</marca>
+            <precio>20.00</precio>
+            <stock>10</stock>
+            <estado>disponible</estado> 
+        </producto>
+        <producto id="PR002">
+            <nombre>raton</nombre>
+            <marca>logitech</marca>
+            <precio>15.00</precio>
+            <stock>15</stock>
+            <estado>disponible</estado>
+        </producto>
+        <producto id="PR003">
+            <nombre>monitor</nombre>
+            <marca>samsung</marca>
+            <precio>150.00</precio>
+            <stock>5</stock>
+        </producto>
+        <producto id="PR004">
+            <nombre>auriculares</nombre>
+            <marca>sony</marca>
+            <precio>30.00</precio>
+            <stock>8</stock>
+            <estado>disponible</estado>
+        </producto>
+        <producto id="PR005">
+            <nombre>webcam</nombre>
+            <marca>logitech</marca>
+            <precio>50.00</precio>
+            <stock>12</stock>
+            <estado>disponible</estado>
+        </producto>
+    </catalogo_productos>
+    <clientes>
+        <cliente id="C001">
+            <nombre>Juan</nombre>
+            <apellido>Pérez</apellido>
+            <direccion>Calle Mayor, 10</direccion>
+            <telefono>123456789</telefono>
+            <email>juan.perez@email.com</email>
+        </cliente>
+        <cliente id="C002">
+            <nombre>María</nombre>
+            <apellido>López</apellido>
+            <direccion>Calle del Sol, 5</direccion>
+            <telefono>987654321</telefono>
+            <email>maria.lopez@email.com</email>
+        </cliente>
+        <cliente id="C003">
+            <nombre>Carlos</nombre>
+            <apellido>García</apellido>
+            <direccion>Calle Luna, 8</direccion>
+            <telefono>456789123</telefono>
+            <email></email>
+        </cliente>
+        <cliente id="C004">
+            <nombre>Ana</nombre>
+            <apellido>Martínez</apellido>
+            <direccion>Calle Estrella, 12</direccion>
+            <telefono>321654987</telefono>
+            <email></email>
+        </cliente>
+
+    </clientes>
+    <pedidos>
+        <pedido id="1">
+            <fecha>2026-15-09</fecha>
+            <cliente_id>C001</cliente_id>
+            <direccion_envio>Calle Mayor, 10</direccion_envio>
+            <estado>enviado</estado>
+            <lista_productos>
+                <producto id="PR001">
+                    <nombre>teclado</nombre>
+                    <marca>logitech</marca>
+                    <precio>20.00</precio>
+                    <cantidad>2</cantidad>
+                </producto>
+                <producto id="PR002">
+                    <nombre>raton</nombre>
+                    <marca>logitech</marca>
+                    <precio>15.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+            </lista_productos>
+            <total>55.00</total>
+        </pedido>
+        <pedido id="2">
+            <fecha>2026-16-09</fecha>
+            <cliente_id>C002</cliente_id>
+            <direccion_envio>Calle del Sol, 5</direccion_envio>
+            <estado>pendiente</estado>
+            <lista_productos>
+                <producto id="PR003">
+                    <nombre>monitor</nombre>
+                    <marca>samsung</marca>
+                    <precio>150.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+                <producto id="PR004">
+                    <nombre>auriculares</nombre>
+                    <marca>sony</marca>
+                    <precio>30.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+
+            </lista_productos>
+            <total>180.00</total>
+
+        </pedido>
+        <pedido id="3">
+            <fecha>2026-17-09</fecha>
+            <cliente_id>C003</cliente_id>
+            <direccion_envio>Calle Luna, 8</direccion_envio>
+            <estado>entregado</estado>
+            <lista_productos>
+                <producto id="PR001">
+                    <nombre>teclado</nombre>
+                    <marca>logitech</marca>
+                    <precio>20.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+                <producto id="PR004">
+                    <nombre>auriculares</nombre>
+                    <marca>sony</marca>
+                    <precio>30.00</precio>
+                    <cantidad>2</cantidad>
+                </producto>
+
+            </lista_productos>
+            <total>80.00</total>
+        </pedido>
+        <pedido id="4">
+            <fecha>2026-18-09</fecha>
+            <cliente_id>C001</cliente_id>
+            <direccion_envio>Calle Mayor, 10</direccion_envio>
+            <estado>pendiente</estado>
+            <lista_productos>
+                <producto id="PR002">
+                    <nombre>raton</nombre>
+                    <marca>logitech</marca>
+                    <precio>15.00</precio>
+                    <cantidad>3</cantidad>
+                </producto>
+                <producto id="PR003">
+                    <nombre>monitor</nombre>
+                    <marca>samsung</marca>
+                    <precio>150.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+
+            </lista_productos>
+            <total>195.00</total>
+        </pedido>
+        <pedido id="5">
+            <fecha>2026-19-09</fecha>
+            <cliente_id>C004</cliente_id>
+            <direccion_envio>Calle Estrella, 12</direccion_envio>
+            <estado>enviado</estado>
+            <lista_productos>
+                <producto id="PR005">
+                    <nombre>webcam</nombre>
+                    <marca>logitech</marca>
+                    <precio>50.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+
+            </lista_productos>
+            <total>50.00</total>
+        </pedido>
+    </pedidos>  
+
+
+
+
+</tienda_online>
