@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy</title>
+</head>
+<body>
+    ii
+<h1>Hola, me llamo Andy </h1> 
+<p>Estudio 1º de DAM y este es mi primer proyecto </p>
+<h2> Lo que quiero aprender este curso  </h2>
+<ol>
+  <li>Quiero terminar el curso con un proyecto funcional propio </li>
+  <li>Ser capaz de explicar y defender mi codigo ante otras personas </li>
+  <li>Entender como desplegar una aplicacion web en un servidor real</li>
+
+</ol>
+<p> Mi editor es <a href="https://cpde.vidualstudio.com">Visual Studio code </a> </p>
+<img src="https://picsum.photos/400/200" alt="imagen de ejemplo">
+
+
+<p>     </p>
+
+<!-- Estp es un comentario: el navegador no lo muestra-->
+<button onclick="saludar()">click aqui si eres programador</button> 
+<button onclick="despedir()">click aqui si eres programador</button>
+<script>
+    function saludar() {
+        alert("Quiuvo compañero! no te asustes esto es solo una prueba de lo que se viene!!!");
+
+    }
+    function despedir(){
+        alert("Suerte muchacho lo estas haciendo bien!!");
+    }
+    let cuenta = 0;
+    function sumar() {
+        cuenta = cuenta + 1 ;
+        document.getElementById("marcador").textContent = cuenta;
+        if (cuenta>=10) {
+            document.getElementById("marcador").style.color ="red"}
+    }
+    function restar() {
+        cuenta = cuenta -1;
+        document.getElementById("marcador").textContent = cuenta;
+    }
+    function reiniciar(){
+        cuenta = 0
+        document.getElementById("marcador").textContent = cuenta;
+    }
+    function mostrarSorpresa() {
+        alert("Felicidades, has encontrado la sorpresa! 🎉");
+    }
+</script>  
+
+
+<h2 id="marcador">0</h2>
+<button onclick="sumar()">sumar 1</button>
+<button onclick="restar()">restar 1  </button>
+<button onclick="reiniciar()">reiniciar </button> 
+<button onclick="mostrarSorpresa()">Sorpresa</button>
+<p><a href="aficiones.html">Ver mis aficiones</a></p>
+
+</body>
+</html>
