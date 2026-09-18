@@ -7,21 +7,36 @@
             <apellido>Pérez</apellido>
             <direccion>Calle Mayor, 10</direccion>
             <lista_productos>
-                <producto id="1">
+                <producto id="PR001">
                     <nombre>teclado</nombre>
                     <marca>logitech</marca>
                     <precio>20.00</precio>
                     <cantidad>2</cantidad>
                 </producto>
-                <producto id="2">
+                <producto id="PR002">
                     <nombre>raton</nombre>
                     <marca>logitech</marca>
                     <precio>15.00</precio>
                     <cantidad>1</cantidad>
                 </producto>
-                <total>55.00</total>
+                
                 </lista_productos>
         </cliente>
+    <lista_productos>
+        <producto id="PR001">
+                    <nombre>teclado</nombre>
+                    <marca>logitech</marca>
+                    <precio>20.00</precio>
+                    <cantidad>2</cantidad>
+                </producto>
+                <producto id="PR002">
+                    <nombre>raton</nombre>
+                    <marca>logitech</marca>
+                    <precio>15.00</precio>
+                    <cantidad>1</cantidad>
+        </producto>                
+        </lista_productos>
+        <total>55.00</total>
     </pedido>
     <pedido id="2">
         <fecha>2026-16-09</fecha>
@@ -30,21 +45,39 @@
             <apellido>López</apellido>
             <direccion>Calle del Sol, 5</direccion>
             <lista_productos>
-                <producto id="3">
+                <producto id="PR003">
                     <nombre>monitor</nombre>
                     <marca>samsung</marca>
                     <precio>150.00</precio>
                     <cantidad>1</cantidad>
                 </producto>
-                <producto id="5">
+                <producto id="PR004">
                     <nombre>auriculares</nombre>
                     <marca>sony</marca>
                     <precio>30.00</precio>
                     <cantidad>1</cantidad>
                 </producto>
-                <total>180.00</total>
-            </lista_productos>
+                
+        </lista_productos>
+        <total>180.00</total>
         </cliente>
+        <lista_productos>
+                <producto id="PR003">
+                    <nombre>monitor</nombre>
+                    <marca>samsung</marca>
+                    <precio>150.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+                <producto id="PR004">
+                    <nombre>auriculares</nombre>
+                    <marca>sony</marca>
+                    <precio>30.00</precio>
+                    <cantidad>1</cantidad>
+                </producto>
+                
+        </lista_productos>
+        <total>180.00</total>
+    
     </pedido>
     <pedido id="3">
         <fecha>2026-17-09</fecha>
@@ -52,7 +85,9 @@
             <nombre>Carlos</nombre>
             <apellido>García</apellido>
             <direccion>Calle Luna, 8</direccion>
-            <lista_productos>
+           
+        </cliente>
+    <lista_productos>
                 <producto id="4">
                     <nombre>portatil</nombre>
                     <marca>lenovo</marca>
@@ -65,9 +100,9 @@
                     <precio>30.00</precio>
                     <cantidad>2</cantidad>
                 </producto>
-                <total>560.00</total>
-            </lista_productos>
-        </cliente>  
+                
+    </lista_productos>  
+    <total>560.00</total>
     </pedido>
 
             
