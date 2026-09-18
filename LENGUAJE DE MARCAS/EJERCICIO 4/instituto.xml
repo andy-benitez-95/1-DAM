@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
-<instituto>
+<instituto>  <!!-- elemento raíz -->
+    <nombre>Instituto de Educación Secundaria</nombre>
+    <direccion>Calle Mayor, 123</direccion>
+    <ciudad>Madrid</ciudad>
+    <provincia>Madrid</provincia>
+    <codigo_postal>28001</codigo_postal>
 <alumnnos>
     <alumno id="1">
         <nombre>Juan</nombre>
@@ -7,14 +12,23 @@
         <edad>20</edad>
         <curso>1º DAM</curso>
         <asignaturas>
-            <asignatura>Programación</asignatura>
-            <nota>8.5</nota>
-            <asignatura>Base de datos</asignatura>
-            <nota>7.0</nota>
-            <asignatura>Lenguaje de marcas</asignatura>
-            <nota>9.0</nota>
-            <asignatura>Entornos de desarrollo</asignatura>
-            <nota>6.5</nota>
+            <asignatura id="AS1">
+                <nombre>Programación</nombre>
+
+                <nota>8.5</nota>
+            </asignatura>
+            <asignatura id="AS2">
+                <nombre>Base de datos</nombre>
+                <nota>7.0</nota>
+            </asignatura>
+            <asignatura id="AS3">
+                <nombre>Lenguaje de marcas</nombre>
+                <nota>9.0</nota>
+            </asignatura>
+            <asignatura id="AS4">
+                <nombre>Entornos de desarrollo</nombre>
+                <nota>6.5</nota>
+            </asignatura>
         </asignaturas>
             
     </alumno>
@@ -24,15 +38,22 @@
         <edad>21</edad>
         <curso>2º DAM</curso>
         <asignaturas>
-            <asignatura>Programación</asignatura>
-            <nota>7.5</nota>
-            <asignatura>Base de datos</asignatura>
-            <nota>8.0</nota>
-            <asignatura>Lenguaje de marcas</asignatura>
-            <nota>9.5</nota>
-            <asignatura>Entornos de desarrollo</asignatura>
-            <nota>7.0</nota>
-
+            <asignatura id="AS1">
+                <nombre>Programación</nombre>
+                <nota>7.5</nota>
+            </asignatura>
+            <asignatura id="AS2">
+                <nombre>Base de datos</nombre>
+                <nota>8.0</nota>
+            </asignatura>
+            <asignatura id="AS3">
+                <nombre>Lenguaje de marcas</nombre>
+                <nota>9.5</nota>
+            </asignatura>
+            <asignatura id="AS4">
+                <nombre>Entornos de desarrollo</nombre>
+                <nota>7.0</nota>
+            </asignatura>
         </asignaturas>
     </alumno>
        <alumno id="3">
@@ -41,14 +62,22 @@
         <edad>22</edad>
         <curso>1º DAM</curso>
         <asignaturas>
-            <asignatura>Programación</asignatura>
-            <nota>6.5</nota>
-            <asignatura>Base de datos</asignatura>
-            <nota>7.5</nota>
-            <asignatura>Lenguaje de marcas</asignatura>
-            <nota>8.0</nota>
-            <asignatura>Entornos de desarrollo</asignatura>
-            <nota>9.0</nota>
+            <asignatura id="AS1">
+                <nombre>Programación</nombre>
+                <nota>6.5</nota>
+            </asignatura>
+            <asignatura id="AS2">
+                <nombre>Base de datos</nombre>
+                <nota>7.5</nota>
+            </asignatura>
+            <asignatura id="AS3">
+                <nombre>Lenguaje de marcas</nombre>
+                <nota>8.0</nota>
+            </asignatura>
+            <asignatura id="AS4">
+                <nombre>Entornos de desarrollo</nombre>
+                <nota>9.0</nota>
+            </asignatura>
         </asignaturas> 
     </alumno>
     <alumno id="4">
@@ -57,14 +86,22 @@
         <edad>20</edad>
         <curso>2º DAM</curso>
         <asignaturas>
-            <asignatura>Programación</asignatura>
-            <nota>8.5</nota>
-            <asignatura>Base de datos</asignatura>
-            <nota>7.0</nota>
-            <asignatura>Lenguaje de marcas</asignatura>
-            <nota>9.0</nota>
-            <asignatura>Entornos de desarrollo</asignatura>
-            <nota>6.5</nota>
+            <asignatura id="AS1">
+                <nombre>Programación</nombre>
+                <nota>8.5</nota>
+            </asignatura>
+            <asignatura id="AS2">
+                <nombre>Base de datos</nombre>
+                <nota>7.0</nota>
+            </asignatura>
+            <asignatura id="AS3">
+                <nombre>Lenguaje de marcas</nombre>
+                <nota>9.0</nota>
+            </asignatura>
+            <asignatura id="AS4">
+                <nombre>Entornos de desarrollo</nombre>
+                <nota>6.5</nota>
+            </asignatura>
         </asignaturas>
     </alumno>
 </alumnnos>
