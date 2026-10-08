@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
-<tienda> 
-    <producto id="1">
+<tienda> <!-- Elemento raíz de la tienda -->
+
+
+    <producto id="1"><!-- Elemnto padre-->
+    
         <nombre>teclado</nombre>    
         <marca>logitech</marca>
         <precio>20.00</precio>

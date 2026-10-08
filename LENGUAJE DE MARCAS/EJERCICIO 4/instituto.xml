@@ -69,19 +69,19 @@
     </alumno>
 </alumnnos>
 <profesores>
-    <profesor id="1">
+    <profesor id="P1">
         <nombre>Pedro</nombre>
         <apellido>Gómez</apellido>
         <edad>35</edad>
         <asignatura>Programación</asignatura>
     </profesor>
-    <profesor id="2">
+    <profesor id="P2">
         <nombre>Laura</nombre>
         <apellido>Fernández</apellido>
         <edad>40</edad>
         <asignatura>Base de datos</asignatura>
     </profesor>
-    <profesor id="3">
+    <profesor id="P3">
         <nombre>Javier</nombre>
         <apellido>López</apellido>
         <edad>38</edad>
