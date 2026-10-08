@@ -1,0 +1,25 @@
+{
+
+   
+   
+    "alumnos": [
+        {
+            "nombre": "Laura",
+            "edad": 22
+        },
+        {
+            "nombre": "Javier",
+            "edad": 25
+        },
+        {
+            "nombre": "Marta",
+            "edad": 20                  
+        }
+
+        
+
+    
+
+        
+   ]
+}

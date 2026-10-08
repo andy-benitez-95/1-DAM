@@ -1,0 +1,9 @@
+{
+    "nombre": "Juan Pérez",
+    
+    "aficiones": [
+        "fútbol",
+         "lectura",
+          "viajar"
+        ]
+}
