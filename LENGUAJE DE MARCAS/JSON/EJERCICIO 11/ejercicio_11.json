@@ -1,0 +1,19 @@
+{
+  "peliculas": [
+    {
+      "titulo": "El padrino",
+      "director": "Francis Ford Coppola",
+      "año": 1972
+    },
+    {
+      "titulo": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "año": 1994
+    },
+    {
+      "titulo": "Matrix",
+      "director": "Lana y Lilly Wachowski",
+      "año": 1999
+    }
+  ]
+}

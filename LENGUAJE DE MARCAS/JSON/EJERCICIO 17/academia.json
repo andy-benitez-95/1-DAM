@@ -1,0 +1,81 @@
+{
+    "nombre": "academia de programación",
+    "fundacion": 2010,
+    "sede":{        
+           "ciudad": "Madrid",
+            "pais": "España",
+            "cordenadas": { "latitud": 40.4168,"longitud": -3.7038}
+        },        
+   "cursos": [
+             {
+                "codigo": "JavaScript",
+                "titulo": "Curso de JavaScript",
+                "profesor": 
+                        {
+                        "nombre": "Carlos",
+                        "especialidades": ["frontend", "backend"],
+                        "contacto": {"email": "carlos@academia.com", "telefono": "123456789"}
+                    },                  
+             
+                "horario" : [
+                    {   "dia": "Lunes","inicio": "10:00","fin": "12:00" },
+                    {   "dia": "Miércoles","inicio": "10:00","fin": "12:00" }
+                    
+                ],
+                "alumnos":[
+                        {"nombre": "Ana","activo":true,"notas":[8,9,7],"nota_final":null},
+                        {"nombre": "Luis","activo": false,"notas":[5,6,4],"nota_final":5},
+                        {"nombre": "Marta","activo": true,"notas":[7,8,9],"nota_final":8}
+                ]
+                      
+             },
+             {
+                "codigo": "Python",
+                "titulo": "Curso de Python",
+                "profesor": 
+                        {
+                        "nombre": "Laura",
+                        "especialidades": ["data science", "machine learning"],
+                        "contacto": {"email": "laura@academia.com", "telefono": "987654321"}
+                    },
+                "horario" : [
+                    {   "dia": "Martes","inicio": "14:00","fin": "16:00" },
+                    {   "dia": "Jueves","inicio": "14:00","fin": "16:00" }
+                ],
+                "alumnos":[
+                        {"nombre": "Pedro","activo":true,"notas":[9,8,10],"nota_final":9},
+                        {"nombre": "Lucía","activo": true,"notas":[6,7,5],"nota_final":6},
+                        {"nombre": "Javier","activo": false,"notas":[4,5,3],"nota_final":4}
+                ]
+            },
+            {
+                "codigo": "Java",
+                "titulo": "Curso de Java",
+                "profesor": 
+                        {
+                        "nombre": "Marta",
+                        "especialidades": ["backend", "aplicaciones móviles"],
+                        "contacto": {"email": "marta@academia.com", "telefono": "555123456"}
+                    },
+                "horario" : [
+                    {   "dia": "Lunes","inicio": "10:00","fin": "12:00" },
+                    {   "dia": "Miércoles","inicio": "10:00","fin": "12:00" }
+                ],
+                "alumnos":[
+                        {"nombre": "Sofía","activo":true,"notas":[8,9,7],"nota_final":8},
+                        {"nombre": "Diego","activo": false,"notas":[5,6,4],"nota_final":5},
+                        {"nombre": "Carmen","activo": true,"notas":[7,8,9],"nota_final":8}
+                ]
+            }
+        ]    
+}
+                      
+
+        
+
+    
+    
+
+    
+   
+

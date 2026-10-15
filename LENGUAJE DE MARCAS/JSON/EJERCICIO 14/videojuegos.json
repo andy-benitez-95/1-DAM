@@ -1,0 +1,28 @@
+{
+    "videojuegos": [
+        {
+            "titulo": "The Legend of Zelda: Breath of the Wild",           
+            "genero": "Aventura",
+            "precio": 59.99,
+            "multijugador": false  
+        },
+        {
+            "titulo": "Super Mario Odyssey",
+            "genero": "Plataformas",
+            "precio": 0,
+            "multijugador": true
+        },
+        {
+            "titulo": "Red Dead Redemption 2",
+            "genero": "Acción/Aventura",
+            "precio": 39.99,
+            "multijugador": true
+        },
+        {
+            "titulo": "Minecraft",
+            "genero": "Sandbox",
+            "precio": 26.95,
+            "multijugador": true
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "1": {
+        "numero_pedido": 1,
+        "cliente": {
+            "nombre": "Juan Pérez",
+            "direccion": {
+                "calle": "Calle Falsa 123",
+                "ciudad": "Madrid",
+                "codigo_postal": "28080" }
+            },
+        "producto":"producto1",
+        "cantidad": 2,
+        "entregado": true
+    },
+    "2":                {
+        "numero_pedido": 2,
+        "cliente": {
+            "nombre": "María López",
+            "direccion": {
+                "calle": "Avenida Siempre Viva 456",
+                "ciudad": "Barcelona",
+                "codigo_postal": "08080"}
+        },
+        "producto":"producto2",
+        "cantidad": 1,
+        "entregado": false
+    },
+        "3": {
+        "numero_pedido": 3,
+        "cliente": {
+            "nombre": "Pedro García",
+            "direccion": {
+                "calle": "Calle Mayor 789",
+                "ciudad": "Valencia",
+                "codigo_postal": "46001"
+            }
+        },
+        "producto":"producto3",
+        "cantidad": 3,
+        "entregado": true
+    }
+}

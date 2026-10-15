@@ -1,0 +1,28 @@
+{
+    "productos": [
+        {
+        "nombre": "producto1",
+        "precio": 10.5,
+        "categoria": "categoria1",
+        "disponible": true
+        },
+        {
+        "nombre": "producto2",
+        "precio": 20.0,
+        "categoria": "categoria2",
+        "disponible": false     
+        },
+        {
+        "nombre": "producto3",
+        "precio": 15.0,
+        "categoria": "categoria1",
+        "disponible": true
+        },
+        {
+        "nombre": "producto4",  
+        "precio": 25.0,
+        "categoria": "categoria3",
+        "disponible": true
+        }    
+    ]
+}

@@ -1,0 +1,87 @@
+{
+ 
+    "nombre": "TecnoMarket",
+    "abierta": true,
+    "contacto": {
+      "telefono": "960000000",
+      "email": "info@tecnomarket.com"
+    },
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Periféricos",
+        "productos": [
+          {
+            "sku": "PER-001",
+            "nombre": "Teclado mecánico",
+            "precio": 49.99,
+            "stock": 25,
+            "etiquetas": ["gaming", "teclado"],
+            "dimensiones": {
+                 "alto": 3.5,
+                  "ancho": 44, "fondo": 14
+                 },
+            "disponible": true
+          },
+          {
+            "sku": "PER-002",
+            "nombre": "Ratón inalámbrico",
+            "precio": 19.5,
+            "stock": 0,
+            "etiquetas": ["oficina", "inalámbrico"],
+            "dimensiones": { "alto": 4, "ancho": 6, "fondo": 11 },
+            "disponible": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Monitores",
+        "productos": [
+          {
+            "sku": "MON-001",
+            "nombre": "Monitor 24 pulgadas",
+            "precio": 139,
+            "stock": 12,
+            "etiquetas": ["pantalla", "full hd"],
+            "dimensiones": { "alto": 42, "ancho": 54, "fondo": 18 },
+            "disponible": true
+          },
+          {
+            "sku": "MON-002",
+            "nombre": "Monitor curvo 27 pulgadas",
+            "precio": 249.9,
+            "stock": 5,
+            "etiquetas": ["pantalla", "curvo", "gaming"],
+            "dimensiones": { "alto": 48, "ancho": 62, "fondo": 24 },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Audio",
+        "productos": [
+          {
+            "sku": "AUD-001",
+            "nombre": "Auriculares con micrófono",
+            "precio": 29.9,
+            "stock": 40,
+            "etiquetas": ["auriculares", "micrófono"],
+            "dimensiones": { "alto": 20, "ancho": 18, "fondo": 9 },
+            "disponible": true
+          },
+          {
+            "sku": "AUD-002",
+            "nombre": "Altavoz bluetooth",
+            "precio": 34.95,
+            "stock": 18,
+            "etiquetas": ["altavoz", "bluetooth"],
+            "dimensiones": { "alto": 10, "ancho": 20, "fondo": 8 },
+            "disponible": true
+          }
+        ]
+      }
+    ]
+  
+}
