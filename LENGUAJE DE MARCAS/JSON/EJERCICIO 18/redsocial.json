@@ -1,0 +1,133 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "usuario":"andy",
+            "perfil":{
+                "bio":"Me gusta la música y los videojuegos",
+                "ubicacion":"hawai",
+                "verificado":true},
+            "siguiendo":[2,3]
+        },
+        {
+            "id":2,
+            "usuario":"jose",
+            "perfil":{
+                "bio":"Estudei en la universidad de hawai",
+                "ubicacion":"hawai",
+                "verificado":true
+            },
+            "siguiendo":[1,3]
+        },
+        {
+            "id":3,
+            "usuario":"maria",
+            "perfil":{
+                "bio":"me fui de viaje a hawai y me encanto",
+                "ubicacion":"hawai",
+                "verificado":true
+            },
+            "siguiendo":[1,2]
+        }
+    ],  
+    "publicaciones":[
+        {
+            "id":101,
+            "usuario_id":1,
+            "texto":"Me encanta la música de los 80s",
+            "fecha":"2026-10-09T14:30:00",
+            "reacciones":{
+                "me_gusta":10,
+                "me_encanta":5,
+                "me_divierte":2
+            },
+            "hashtags":["#musica80s","#nostalgia"]
+            
+        },
+        {
+            "id":102,
+            "usuario_id":2,
+            "texto":"La universidad de hawai es increíble",
+            "fecha":"2026-10-10T09:15:00",
+            "reacciones":{
+                "me_gusta":8,
+                "me_encanta":3,
+                "me_divierte":1
+            },
+            "hashtags":["#universidad","#hawai"]
+        },
+        {
+            "id":103,
+            "usuario_id":3,
+            "texto":"Mi viaje a hawai fue inolvidable",
+            "fecha":"2026-10-11T18:45:00",
+            "reacciones":{
+                "me_gusta":12,
+                "me_encanta":7,
+                "me_divierte":4
+            },
+            "hashtags":["#viaje","#hawai"]
+        },
+        {
+            "id":104,
+            "usuario_id":1,
+            "texto":"Estoy aprendiendo a tocar la guitarra",
+            "fecha":"2026-10-12T11:20:00",
+            "reacciones":{
+                "me_gusta":15,
+                "me_encanta":6,
+                "me_divierte":3
+            },
+            "hashtags":["#guitarra","#musica"]
+        },
+        {
+            "id":105,
+            "usuario_id":2,
+            "texto":"La comida en hawai es deliciosa",
+            "fecha":"2026-10-13T16:10:00",
+            "reacciones":{
+                "me_gusta":9,
+                "me_encanta":4,
+                "me_divierte":2
+            },
+            "hashtags":["#comida","#hawai"]
+        }
+    ],
+    "comentarios":[
+        {
+            "id":201,
+            "publicacion_id":101,
+            "usuario_id":2,
+            "texto":"¡Totalmente de acuerdo! La música de los 80s es increíble.",
+            "fecha":"2026-10-09T15:00:00"
+        },
+        {
+            "id":202,
+            "publicacion_id":102,
+            "usuario_id":3,
+            "texto":"¡Qué suerte! Me encantaría estudiar allí.",
+            "fecha":"2026-10-10T10:00:00"
+        },
+        {
+            "id":203,
+            "publicacion_id":103,
+            "usuario_id":1,
+            "texto":"¡Qué envidia! Espero poder ir algún día.",
+            "fecha":"2026-10-11T19:00:00"
+        },
+        {
+            "id":204,
+            "publicacion_id":104,
+            "usuario_id":3,
+            "texto":"¡Eso suena genial! La guitarra es un instrumento maravilloso.",
+            "fecha":"2026-10-12T12:00:00"
+        },
+        {
+            "id":205,
+            "publicacion_id":105,
+            "usuario_id":1,
+            "texto":"¡Sí! La comida en hawai es deliciosa, especialmente los platos locales.",
+            "fecha":"2026-10-13T17:00:00"
+        }
+    ]
+}
