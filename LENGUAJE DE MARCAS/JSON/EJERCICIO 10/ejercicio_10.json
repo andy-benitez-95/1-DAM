@@ -1,0 +1,25 @@
+{
+"nombre": "exito",
+"direccion": {
+    "calle": "Calle Falsa",    
+    "ciudad": "Madrid"
+    
+}
+"productos": [
+    {
+        "nombre": "producto1",
+        "precio": 10.5,
+        "disponible": true
+    },
+    {
+        "nombre": "producto2",
+        "precio": 20.0,
+        "disponible": false     
+    },
+    {
+        "nombre": "producto3",
+        "precio": 15.75,
+        "disponible": true
+    }
+]
+}

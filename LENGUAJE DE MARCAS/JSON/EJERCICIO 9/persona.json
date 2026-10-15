@@ -1,6 +1,6 @@
 {
     "nombre": "Juan",
-    "edad": 30
+    "edad": 30,
     "direccion": {
         "calle": "Calle Falsa",        
         "ciudad": "Madrid",
