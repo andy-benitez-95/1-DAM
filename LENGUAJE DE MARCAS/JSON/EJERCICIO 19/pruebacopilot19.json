@@ -1,0 +1,153 @@
+{
+  "nombre": "Clínica Salud Integral",
+  "direccion": {
+    "calle": "Calle Mayor, 25",
+    "ciudad": "Madrid",
+    "codigoPostal": "28013"
+  },
+  "configuracion": {
+    "horarioApertura": "08:00",
+    "horarioCierre": "20:00",
+    "duracionCitaMinutos": 30
+  },
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Laura García",
+      "especialidad": "Medicina general",
+      "colegiado": "M-28001",
+      "consultas": ["Lunes", "Miércoles", "Viernes"]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Martín",
+      "especialidad": "Cardiología",
+      "colegiado": "M-28002",
+      "consultas": ["Martes", "Jueves"]
+    },
+    {
+      "id": 3,
+      "nombre": "Elena López",
+      "especialidad": "Dermatología",
+      "colegiado": "M-28003",
+      "consultas": ["Lunes", "Martes", "Jueves"]
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 101,
+      "nombre": "Ana Fernández",
+      "fechaNacimiento": "1990-04-12",
+      "seguro": {
+        "compania": "SaludPlus",
+        "numeroPoliza": "SP-458721"
+      },
+      "alergias": ["Penicilina"],
+      "historial": [
+        {
+          "fecha": "2025-03-10",
+          "diagnostico": "Infección de garganta",
+          "tratamiento": {
+            "medicamento": "Amoxicilina",
+            "dosis": "500 mg cada 8 horas",
+            "duracionDias": 7
+          }
+        },
+        {
+          "fecha": "2025-11-02",
+          "diagnostico": "Migraña",
+          "tratamiento": {
+            "medicamento": "Ibuprofeno",
+            "dosis": "400 mg cuando sea necesario",
+            "duracionDias": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "nombre": "Javier Ruiz",
+      "fechaNacimiento": "1985-09-23",
+      "seguro": {
+        "compania": "Vida Sana",
+        "numeroPoliza": "VS-992314"
+      },
+      "alergias": [],
+      "historial": [
+        {
+          "fecha": "2025-06-18",
+          "diagnostico": "Hipertensión arterial",
+          "tratamiento": {
+            "medicamento": "Enalapril",
+            "dosis": "10 mg una vez al día",
+            "duracionDias": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "nombre": "Lucía Torres",
+      "fechaNacimiento": "2001-01-30",
+      "seguro": {
+        "compania": "Particular",
+        "numeroPoliza": null
+      },
+      "alergias": ["Polen", "Ácaros"],
+      "historial": [
+        {
+          "fecha": "2025-04-05",
+          "diagnostico": "Dermatitis alérgica",
+          "tratamiento": {
+            "medicamento": "Crema de hidrocortisona",
+            "dosis": "Aplicar una capa fina dos veces al día",
+            "duracionDias": 5
+          }
+        }
+      ]
+    }
+  ],
+  "citas": [
+    {
+      "id": 1001,
+      "pacienteId": 101,
+      "medicoId": 1,
+      "fecha": "2026-10-19T09:00:00",
+      "confirmada": true,
+      "notas": "Revisión general"
+    },
+    {
+      "id": 1002,
+      "pacienteId": 102,
+      "medicoId": 2,
+      "fecha": "2026-10-20T10:30:00",
+      "confirmada": true,
+      "notas": "Control de la presión arterial"
+    },
+    {
+      "id": 1003,
+      "pacienteId": 103,
+      "medicoId": 3,
+      "fecha": "2026-10-20T12:00:00",
+      "confirmada": false,
+      "notas": null
+    },
+    {
+      "id": 1004,
+      "pacienteId": 101,
+      "medicoId": 3,
+      "fecha": "2026-10-22T16:00:00",
+      "confirmada": true,
+      "notas": "Consulta por irritación cutánea"
+    },
+    {
+      "id": 1005,
+      "pacienteId": 102,
+      "medicoId": 1,
+      "fecha": "2026-10-23T11:30:00",
+      "confirmada": false,
+      "notas": "Seguimiento médico"
+    }
+  ]
+}
+
