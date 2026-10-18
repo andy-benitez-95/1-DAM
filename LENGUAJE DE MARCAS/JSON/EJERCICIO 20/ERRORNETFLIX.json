@@ -14,5 +14,11 @@
             "campo":"PAGINA"
 
         }
-    ]
+    ],
+    "respuestasReto": {
+    "tituloSegundoEpisodioPrimeraTemporadaTerceraSerie": "data[2].temporadas[0].episodios[1].titulo",
+    "actorPrincipalPrimeraSerie": "data[0].reparto[0].actor",
+    "segundaSerieDisponibleEnMX": "data[1].disponibleEn.MX"
+  }
+
 }
