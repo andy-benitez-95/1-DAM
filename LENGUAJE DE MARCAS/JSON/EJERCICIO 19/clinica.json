@@ -177,10 +177,11 @@
 
         }
     ],
-    "respuestasReto": {
-    "medicamentoPrimerDiagnosticoSegundoPaciente": "pacientes[1].historial[0].tratamiento.medicamento",
+    "respuestasReto":
+     {
+    "rutaMedicamentoPrimerDiagnosticoSegundoPaciente": "pacientes[1].historial[0].tratamiento.medicamento",
     "citasDeUnMedico": "Buscar en citas las que tengan el medicoId igual al id del médico",
     "pacientesSinSeguro": "Los pacientes cuyo seguro es null"
     }
-                
+              
 }
