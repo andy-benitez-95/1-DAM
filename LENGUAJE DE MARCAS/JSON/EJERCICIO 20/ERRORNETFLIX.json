@@ -1,0 +1,18 @@
+{
+    "status":404,
+    "ok":false,
+    "data":null,
+    "errores":[
+        {
+            "codigo":"SERIE_NO_ENCONTRADA",
+            "mensaje": "No existe",
+            "campo":"id"
+        },
+        {
+            "codigo":"PAGINA_NO_ENCONTRADA",
+            "mensaje":"No existe",
+            "campo":"PAGINA"
+
+        }
+    ]
+}
