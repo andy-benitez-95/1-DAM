@@ -15,7 +15,7 @@
                         "nombre": "Carlos",
                         "especialidades": ["frontend", "backend"],
                         "contacto": {"email": "carlos@academia.com", "telefono": "123456789"}
-                    },                  
+                    },               
              
                 "horario" : [
                     {   "dia": "Lunes","inicio": "10:00","fin": "12:00" },
@@ -26,8 +26,7 @@
                         {"nombre": "Ana","activo":true,"notas":[8,9,7],"nota_final":null},
                         {"nombre": "Luis","activo": false,"notas":[5,6,4],"nota_final":5},
                         {"nombre": "Marta","activo": true,"notas":[7,8,9],"nota_final":8}
-                ]
-                      
+                ]                      
              },
              {
                 "codigo": "Python",

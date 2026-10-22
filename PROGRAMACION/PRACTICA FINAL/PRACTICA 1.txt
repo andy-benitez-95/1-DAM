@@ -1,0 +1,34 @@
+TRAZA ejercicio1
+
+Paso                      |  a  |  b  |  c
+--------------------------|-----|-----|-----
+a <- 1                    |  1  |  -  |  -
+a <- a*2                  |  2  |  -  |  -
+b <- a*(4*6)-3            |  2  | 45  |  -
+c <- (b+3)*a%3            |  2  | 45  |  0
+
+Condición: V (45>2 y 45>0)
+
+Vuelta 1: a <- a+1        |  3  | 45  |  0
+Vuelta 1: b <- TRUNC(b/2) |  3  | 22  |  0
+Vuelta 1: c <- c-1        |  3  | 22  | -1
+Vuelta 1: a>c -> a <- a+1 |  4  | 22  | -1
+
+Condición: V (22>4 y 22>-1)
+
+Vuelta 2: a <- a+1        |  5  | 22  | -1
+Vuelta 2: b <- TRUNC(b/2) |  5  | 11  | -1
+Vuelta 2: c <- c-1        |  5  | 11  | -2
+Vuelta 2: a>c -> a <- a+1 |  6  | 11  | -2
+
+Condición: V (11>6 y 11>-2)
+
+Vuelta 3: a <- a+1        |  7  | 11  | -2
+Vuelta 3: b <- TRUNC(b/2) |  7  |  5  | -2
+Vuelta 3: c <- c-1        |  7  |  5  | -3
+Vuelta 3: a>c -> a <- a+1 |  8  |  5  | -3
+
+Condición: F (5>8 es falso) -> sale del bucle
+
+Valores finales: a=8, b=5, c=-3
+

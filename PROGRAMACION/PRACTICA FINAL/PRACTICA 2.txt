@@ -1,0 +1,61 @@
+Algoritmo EJERCICIO2
+	Definir salarioDiario, salarioBruto, extras, plusNoct, plusFam Como Real
+	Definir total, irpfPct, irpf, ss, neto Como Real
+	Definir dias, hijos Como Entero
+	definir turno como cadena
+	Escribir "salario bruto diario:"
+	Leer salarioDiario
+	Escribir "Dias trabajados este mes:"
+	Leer dias
+	Escribir "turno (mañana/tarde/noche):"
+	Leer turno
+	escribir "numero de hijos:"
+	leer hijos
+	
+	salarioBruto<-salarioDiario * dias
+	extras<-salarioBruto*0.18
+	
+	plusNoct <- 0
+	si Minusculas(turno) = "noche" Entonces
+		plusNoct<-150
+	FinSi
+	
+	plusFam<-0
+	si hijos > 3 Entonces
+		plusFam <- 50 * hijos
+	SiNo
+		plusFam<- 35* hijos
+	FinSi
+	
+	total<-salarioBruto + extras + plusNoct + plusFam
+		
+	si  hijos = 0 Entonces
+		irpfPct<-0.20
+	SiNo
+		si hijos <= 2 Entonces
+			irpfPct<-0.15
+		SiNo
+			irpfPct<-0.12
+		FinSi
+	FinSi
+	
+	irpf<- total*irpfPct
+	ss<-total*0.054
+	neto<-total - irpf - ss
+	
+	Escribir  "sueldo bruto: ", salarioBruto
+	Escribir "+ parte proporcional pagas extras:", extras
+	
+	si plusNoct > 0 Entonces
+		Escribir "+ plus de nocturnidad: ", plusNoct
+	FinSi
+	si plusFam >0 Entonces
+		Escribir "+ plus familiar:" plusFam
+	
+	FinSi
+	Escribir "-IRPF:" irpf
+	Escribir "-seguridad social:", ss
+	Escribir "Importe neto nomina:", neto
+	
+	
+FinAlgoritmo
