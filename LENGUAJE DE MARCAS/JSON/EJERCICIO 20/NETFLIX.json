@@ -1,0 +1,336 @@
+{
+    "status": 200,
+    "ok": true,
+    "meta":{
+        "pagina": 1,
+        "porPagina": 10,
+        "totalresultados": 3,
+        "enlaces": {
+            "anterior": null,
+            "siguiente": null
+        },
+
+        "generadoEn": "2026-10-15T12:00:00"
+        },
+    
+    "data":[
+        {
+            "id": "001",
+            "titulo": "Stranger Things",
+            "genero": "Ciencia ficción",
+            "estreno": 2016,
+            "valoracion":{
+                "media": 8.7,
+                "votos": 1200000    
+            },
+            "reparto":[
+                {
+                    "actor": "Winona Ryder",
+                    "persona": "Jesse",
+                    "personajeprincipal": true
+                },
+                {
+                    "actor": "David Harbour",
+                    "persona": "Hopper",    
+                    "personajeprincipal": true
+                },
+                {
+                    "actor": "Millie Bobby Brown",
+                    "persona": "Eleven",
+                    "personajeprincipal": true
+                },
+                {
+                    "actor": "Finn Wolfhard",
+                    "personaje": "Mike Wheeler",      
+                    "principal": true
+                },
+                {
+                    "actor": "Gaten Matarazzo",
+                    "personaje": "Lucas Sinclair",
+                    "principal": true
+                },
+                {
+                    "actor": "Caleb McLaughlin",
+                    "personaje": "Will Byers",
+                    "principal": true
+                },
+                {
+                    "actor": "Sadie Sink",
+                    "personaje": "Max Mayfield",
+                    "principal": true
+                },
+                {
+                    "actor": "Natalia Dyer",
+                    "personaje": "Nancy Wheeler",
+                    "principal": true
+                },
+                {
+                    "actor": "Charlie Heaton",
+                    "personaje": "Jonathan Byers",
+                    "principal": true
+                },
+                {
+                    "actor": "Cara Buono",
+                    "personaje": "Karen Wheeler",
+                    "principal": false
+                },
+                {
+                    "actor": "Matthew Modine",
+                    "personaje": "Dr. Martin Brenner",
+                    "principal": false
+                },
+                {
+                    "actor": "Paul Reiser",
+                    "personaje": "Sam Owens",
+                    "principal": false
+                },
+                {
+                    "actor": "Linnea Berthelsen",
+                    "personaje": "Kali Prasad",
+                    "principal": false
+                },
+                {
+                    "actor": "Brett Gelman",
+                    "personaje": "Murray Bauman",
+                    "principal": false
+                },
+                {
+                    "actor": "Sean Astin",
+                    "personaje": "Bob Newby",
+                    "principal": false
+                },
+                {
+                    "actor": "Dacre Montgomery",
+                    "personaje": "Billy Hargrove",
+                    "principal": false
+                },
+                {
+                    "actor": "Maya Hawke",
+                    "personaje": "Robin Buckley",
+                    "principal": false
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "Capítulo Uno: La desaparición de Will Byers",
+                            "duracionMin": 47
+                        },
+                        {
+                            "titulo": "Capítulo Dos: La señal",
+                            "duracionMin": 55
+                        },
+                        {
+                            "titulo": "Capítulo Tres: El chico perdido",
+                            "duracionMin": 51
+                        },
+                        {
+                            "titulo": "Capítulo Cuatro: El cuerpo",
+                            "duracionMin": 50
+                        },
+                        {
+                            "titulo": "Capítulo Cinco: La flecha y el disparo",
+                            "duracionMin": 52
+                        },
+                        {
+                            "titulo": "Capítulo Seis: El monstruo",
+                            "duracionMin": 53
+                        },
+                        {
+                            "titulo": "Capítulo Siete: La batalla de Starcourt",
+                            "duracionMin": 54
+                        },
+                        {
+                            "titulo": "Capítulo Ocho: La puerta",
+                            "duracionMin": 55
+                        }
+                    ]
+
+                },
+                {
+                    "numero": 2,
+                    "episodios": [
+                        {
+                            "titulo": "Capítulo Uno: MADMAX",
+                            "duracionMin": 48
+                        },
+                        {
+                            "titulo": "Capítulo Dos: Trick or Treat, Freak",
+                            "duracionMin": 56
+                        },
+                        {
+                            "titulo": "Capítulo Tres: The Pollywog",
+                            "duracionMin": 50
+                        },
+                        {
+                            "titulo": "Capítulo Cuatro: Will the Wise",
+                            "duracionMin": 51
+                        },
+                        {
+                            "titulo": "Capítulo Cinco: Dig Dug",
+                            "duracionMin": 52
+                        },
+                        {
+                            "titulo": "Capítulo Seis: The Spy",
+                            "duracionMin": 53
+                        },
+                        {
+                            "titulo": "Capítulo Siete: The Lost Sister",
+                            "duracionMin": 54
+                        },
+                        {
+                            "titulo": "Capítulo Ocho: The Mind Flayer",
+                            "duracionMin": 55
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn":{
+                "Esp":true,
+                "mex":false,
+                "Col":true
+            },
+            "trailers": [
+                {
+                    "duracionSeg": 120,
+                    "titulo": "Stranger Things - Trailer Oficial",
+                    "url": "https://www.youtube.com/watch?v=b9EkMc79ZSU"
+                },
+                {
+                    "duracionSeg": 120,
+                    "titulo": "Stranger Things 2 - Trailer Oficial",
+                    "url": "https://www.youtube.com/watch?v=XWxyRG_tckY"
+                }
+            ]
+        },
+
+        {
+            "id": "002",
+            "titulo": "dragonball z",
+            "genero": "Acción",
+            "estreno": 1989,
+            "valoracion":{
+                "media": 8.7,
+                "votos": 1200000    
+            },
+            "reparto":[
+                {
+                    "actor": "Masako Nozawa",
+                    "personaje": "Goku",
+                    "principal": true
+                },
+                {
+                    "actor": "Ryō Horikawa",
+                    "personaje": "Vegeta",    
+                    "principal": true
+                    
+                },
+                {
+                    "actor": "Toshio Furukawa",
+                    "personaje": "Piccolo",
+                    "principal": true
+                },
+                {
+                    "actor": "Hiromi Tsuru",
+                    "persona": "Bulma",      
+                    "personajeprincipal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "Capítulo Uno: El despertar de Goku",
+                            "duracionMin": 25
+                        },
+                        {
+                            "titulo": "Capítulo Dos: La llegada de Vegeta",
+                            "duracionMin": 30
+                        }
+                    ]
+                }
+            ],
+            "disponibleEn":{
+                "Esp":true,
+                "mex":false,
+                "Col":true
+            },
+            "trailers": [
+                {
+                    "duracionSeg": 120,
+                    "titulo": "Dragon Ball Z - Trailer Oficial",
+                    "url": "https://www.youtube.com/watch?v=1g3_CFmnU7k"
+                }
+            ]
+
+        },
+        {
+            "id":"003",
+            "titulo": "Games of Thrones",
+            "genero": "Drama",
+            "estreno": 2011,
+            "valoracion":{
+                "media": 9.2,
+                "votos": 2000000    
+            },
+            "reparto":[
+                {
+                    "actor": "Emilia Clarke",
+                    "personaje": "Daenerys Targaryen",
+                    "principal": true
+                },
+                {
+                    "actor": "Kit Harington",
+                    "personaje": "Jon Snow",    
+                    "principal": true
+                },
+                {
+                    "actor": "Peter Dinklage",
+                    "personaje": "Tyrion Lannister",
+                    "principal": true
+                },
+                {
+                    "actor": "Lena Headey",
+                    "personaje": "Cersei Lannister",      
+                    "principal": true
+                },
+                {
+                    "actor": "Nikolaj Coster-Waldau",
+                    "personaje": "Jaime Lannister",      
+                    "principal": true
+                }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        {
+                            "titulo": "Capítulo Uno: Se acerca el invierno",
+                            "duracionMin": 60
+                        },
+                        {
+                            "titulo": "Capítulo Dos: La casa de los dragones",
+                            "duracionMin": 55
+                        }
+                    ]
+                }
+            ],
+           "disponibleEn":{
+                "Esp":true,
+                "mex":false,
+                "Col":true
+            },
+            "trailers":[
+                {
+                "duracionSeg":120,
+                "titulo":"trailleroficialjuegodetronos",
+                "url":"https://www.youtube.com/watch?v=1g3_CFmnU7k"
+                }
+            ]  
+        }    
+    ],
+    "errores": []
+}

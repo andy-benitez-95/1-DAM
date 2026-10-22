@@ -1,0 +1,24 @@
+{
+    "status":404,
+    "ok":false,
+    "data":null,
+    "errores":[
+        {
+            "codigo":"SERIE_NO_ENCONTRADA",
+            "mensaje": "No existe",
+            "campo":"id"
+        },
+        {
+            "codigo":"PAGINA_NO_ENCONTRADA",
+            "mensaje":"No existe",
+            "campo":"PAGINA"
+
+        }
+    ],
+    "respuestasReto": {
+    "tituloSegundoEpisodioPrimeraTemporadaTerceraSerie": "data[2].temporadas[0].episodios[1].titulo",
+    "actorPrincipalPrimeraSerie": "data[0].reparto[0].actor",
+    "segundaSerieDisponibleEnMX": "data[1].disponibleEn.MX"
+  }
+
+}

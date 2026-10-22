@@ -1,0 +1,187 @@
+{
+    "nombre": "Clinica San Jose",
+    "direccion":{
+        "calle": "Calle Mayor, 25",
+        "ciudad": "Paterna",
+        "codigoPostal": "46980"
+    },
+    "configuracion":{
+        "horarioApertura": "08:00",
+        "horarioCierre": "20:00",
+        "duracionCitaMinutos": 30
+    },
+    "medicos":[
+            {
+            "id": "M001",
+            "nombre": "Dr. Juan Perez",
+            "especialidad": "Medicina general",
+            "colegiado": "M-12345",
+            "consultas": ["Lunes", "Miércoles", "Viernes"]
+        },
+
+        {
+            "id": "M002",
+            "nombre": "Dra. Maria Lopez",
+            "especialidad": "Cardiología",
+            "colegiado": "M-67890",
+            "consultas": ["Martes", "Jueves"]
+            
+        },
+
+        {
+            "id": "M003",
+            "nombre": "Dr. Carlos Sanchez",
+            "especialidad": "Dermatología",
+            "colegiado": "M-54321",
+            "consultas": ["Lunes", "Martes", "Jueves"]
+
+        }
+    ],
+    "pacientes":[
+        {
+            "id": "P001",
+            "nombre": "Ana Fernandez",
+            "fechaNacimiento": "1990-04-12",
+            "seguro":{
+                "compania": "SaludPlus",
+                "numeroPoliza": "SP-458721"
+            },
+            "alergias": ["Penicilina"],
+            "historial":[
+                {
+                    "fecha": "2025-03-10",
+                    "diagnostico": "Infección de garganta",
+                    "tratamiento":{
+                        "medicamento": "Amoxicilina",
+                        "dosis": "500 mg cada 8 horas",
+                        "duracionDias": 7
+                    }
+                },
+                {
+                    "fecha": "2025-11-02",
+                    "diagnostico": "Migraña",
+                    "tratamiento":{
+                        "medicamento": "Ibuprofeno",
+                        "dosis": "400 mg cada 6 horas",
+                        "duracionDias": 5
+                    }
+                }
+            ]
+
+        },
+
+        {
+            "id": "P002",
+            "nombre": "Javier Ruiz",
+            "fechaNacimiento": "1985-08-20",
+            "seguro":{
+                "compania": "SaludPlus",
+                "numeroPoliza": "SP-987654"
+            },
+            "alergias": ["Latex"],
+            "historial":[
+                {
+                    "fecha": "2025-06-15",
+                    "diagnostico": "Fractura de brazo",
+                    "tratamiento":{
+                        "medicamento": "Ibuprofeno",
+                        "dosis": "400 mg cada 6 horas",
+                        "duracionDias": 10
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "P003",
+            "nombre": "Lucia Torres",
+            "fechaNacimiento": "2001-01-30",
+            "seguro":{
+                "compania": "Vida Sana",
+                "numeroPoliza": "VS-123456"
+            },
+            "alergias": [],
+            "historial":[
+                {
+                    "fecha": "2025-09-20",
+                    "diagnostico": "Alergia estacional",
+                    "tratamiento":{
+                        "medicamento": "Cetirizina",
+                        "dosis": "10 mg una vez al día",
+                        "duracionDias": 30
+                    }
+                }
+            ]
+
+        }
+    ],
+    "citas":[
+        {
+            "id": "C001",
+            "paciente_id": "P001",
+            "medico_id": "M001",
+            "fecha": "2026-10-15T10:00:00",
+            "confirmada": true,
+            "notas": "Revisión de rutina"
+
+        },
+
+        {
+            "id": "C002",
+            "paciente_id": "P002",  
+            "medico_id": "M002",
+            "fecha": "2026-10-16T14:30:00",
+            "confirmada": false,
+            "notas": "Consulta por dolor en el pecho"
+
+        },
+
+        {
+            "id":"C003",
+            "paciente_id": "P003",
+            "medico_id": "M003",
+            "fecha": "2026-10-17T09:15:00",
+            "confirmada": true,
+            "notas": "Revisión de alergias"
+
+        },
+
+        {
+            "id":"C004",
+            "paciente_id": "P001",
+            "medico_id": "M002",
+            "fecha": "2026-10-18T11:45:00",
+            "confirmada": true,
+            "notas": "Control de presión arterial"
+
+        },
+
+        {
+            "id":"C005",
+            "paciente_id": "P002",
+            "medico_id": "M001",
+            "fecha": "2026-10-19T15:00:00",
+            "confirmada": false,
+            "notas": "Consulta por dolor de cabeza"
+
+        },
+
+        {
+            "id":"C006",
+            "paciente_id": "P003",
+            "medico_id": "M003",
+            "fecha": "2026-10-20T13:30:00",
+            "confirmada": true,
+            "notas": "Revisión de piel"
+
+
+        }
+    ],
+    "respuestasReto":
+     {
+    "rutaMedicamentoPrimerDiagnosticoSegundoPaciente": "pacientes[1].historial[0].tratamiento.medicamento",
+    "citasDeUnMedico": "Buscar en citas las que tengan el medicoId igual al id del médico",
+    "pacientesSinSeguro": "Los pacientes cuyo seguro es null"
+    }
+              
+}

@@ -1,0 +1,181 @@
+{
+     "nombre":"Tienda_Online",
+     "email": "contacto@tiendaonline.com",
+     "telefono":"647841257",
+     "direccion":{
+        "calle":"calle de la paz 12",
+        "ciudad":"valencia",
+        "codigoPostal":"46258",
+        "pais":"españa"
+        
+     },
+     "productos":[
+      {
+            "id":"P001",
+            "nombre":"Air Max",
+            "categoria":"Zapatillas",
+            "precio":120,
+            "stock":20,
+            "disponible":true            
+      },
+      {
+           "id":"P002",
+            "nombre":"Air Jordan",
+            "categoria":"Zapatillas",
+            "precio":150,
+            "stock":5,
+            "disponible":false
+      },
+      {
+            "id":"P003",
+            "nombre":"Gorra New Era 2026",
+            "categoria":"Accesorios",
+            "precio":50,
+            "stock":3,
+            "disponible":true            
+      },
+      {
+            "id":"P004",
+            "nombre":"Reloj AP",
+            "categoria":"Accesorios",
+            "precio":300,
+            "stock":10,
+            "disponible":true            
+      }        
+     ],
+     "clientes":[
+      {
+         "id":"C001",
+         "nombre":"Juan Perez",
+         "email":"juan@gmail.com",
+         "telefono":"64784523",
+         "direccion":{
+                   "calle":"",
+                   "ciudad":"",
+                  "codigoPostal":""
+         }
+      },
+      {
+         "id":"C002",
+         "nombre":"marta Diaz",
+         "email":"marta@gmail.com",
+         "telefono":"64784522",
+         "direccion":{
+                   "calle":"",
+                   "ciudad":"",
+                  "codigoPostal":""
+         }
+      },
+      {
+         "id":"C003",
+         "nombre":"Will Smith",
+         "email":"soyleyenda@gmail.com",
+         "telefono":"647841257",
+         "direccion":{
+                   "calle":"",
+                   "ciudad":"",
+                  "codigoPostal":""
+         }
+      }
+     ],
+     "pedidos":[
+      {
+         "id":"PED001",
+         "clienteId":"C001",
+         "productos":[
+            {
+               "productoId": "P001",
+               "cantidad":2,
+               "precio":120
+            },
+              {
+               "productoId": "P002",
+               "cantidad":2,
+               "precio":150
+            },
+              {
+               "productoId": "P003",
+               "cantidad":2,
+               "precio":50
+            }
+         ],
+         "fecha":"15/10/2026",
+         "estado":"entregado",
+         "total":500
+
+      },
+      {
+         "id":"PED002",
+         "clienteId":"C002",
+         "productos":[
+            {
+               "productoId": "P001",
+               "cantidad":2,
+               "precio":120
+            },
+              {
+               "productoId": "P002",
+               "cantidad":2,
+               "precio":150
+            },
+              {
+               "productoId": "P004",
+               "cantidad":2,
+               "precio":300
+              }
+         ],
+         "fecha":"20/09/2026",
+         "estado":"entregado",
+         "total":15
+      },
+      {
+         "id":"PED003",
+         "clienteId":"C003",
+         "productos":[
+            {
+               "productoId": "P001",
+               "cantidad":2,
+               "precio":15
+            },
+              {
+               "productoId": "P002",
+               "cantidad":2,
+               "precio":15
+            },
+              {
+               "productoId": "P003",
+               "cantidad":2,
+               "precio":15
+              }
+         ],
+         "fecha":"15/07/2026",
+         "estado":"entregado",
+         "total":15
+
+      },
+      {
+         "id":"PED004",
+         "clienteId":"C001",
+         "productos":[
+            {
+               "productoId": "P001",
+               "cantidad":2,
+               "precio":15
+            },
+              {
+               "productoId": "P002",
+               "cantidad":2,
+               "precio":15
+            },
+              {
+               "productoId": "P003",
+               "cantidad":2,
+               "precio":15
+              }
+         ],
+         "fecha":"10/05/26",
+         "estado":"entregado",
+         "total":15
+      }
+     ]
+}
