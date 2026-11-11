@@ -1,0 +1,10 @@
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\bin\Debug\Suma.exe.config
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\bin\Debug\Suma.exe
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\bin\Debug\Suma.pdb
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.csproj.AssemblyReference.cache
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.Form1.resources
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.Properties.Resources.resources
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.csproj.GenerateResource.cache
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.csproj.CoreCompileInputs.cache
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.exe
+C:\Users\Andy DAM\Documents\1-DAM\Entornos de Desarrollo\vs community\WinFormsApp1\Suma\obj\Debug\Suma.pdb
