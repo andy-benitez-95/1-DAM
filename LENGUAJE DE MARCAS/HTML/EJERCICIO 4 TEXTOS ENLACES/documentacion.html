@@ -4,39 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentacion tecnica</title>
+    <title>Documentacion de Weather API</title>
+    <style>
+        body {
+            background-color: #91a196;
+        }
+    </style>
 
 </head>
 
 <body>
-    <h1>weather API </h1>
-    <section>
-        <h2>Introducción</h2>
-
-        <p><a href="https://openweathermap.org/api" target="_blank">consultar documentación oficial</a></p>
     
-    </section>
-    <section>
-        <h2>Autenticación</h2>
-        <p>Para utilizar la API de OpenWeatherMap, es necesario obtener una clave de API. Una vez que se tiene la clave,
-            se puede realizar solicitudes a los endpoints de la API.</p>
-    </section>
-    <section>
-        <h2>Ejemplo de uso</h2>
-        <p>A continuación, se muestra un ejemplo de cómo realizar una solicitud a la API de OpenWeatherMap utilizando
-            JavaScript:</p>
-    </section>
-    <section>
-        <h2>Endpoint de usuarios</h2>
-        <p> </p>
-    </section>
-    <section>
-        <h2>Endpoint de ciudades</h2>
-        <p> </p>
-    </section>
-    <section>
-        <h2>contacto</h2>
-        <p> </p>
+    <h1>Weather API </h1>
+
+    <!--Menu de navegacion-->
+
+    <h2>Menu de navegacion</h2>
+
+        <nav>
+            <ul>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#autenticacion">Autenticación</a></li>
+            <li><a href="#endpoint-usuarios">Endpoint de usuarios</a></li>
+            <li><a href="#endpoint-ciudades">Endpoint de ciudades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h2 id="introduccion">Introducción</h2>
+            <P>Weather API es un servicio que proporciona datos meteorológicos en tiempo real y pronósticos del clima
+                para ubicaciones específicas. La API permite a los desarrolladores acceder a información detallada sobre
+                el clima, incluyendo temperatura, humedad, velocidad del viento, condiciones climáticas y más. </P>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis quo veritatis vel beatae facere
+                inventore eum vitae accusantium distinctio praesentium earum ea odio, nisi at tempore quaerat ad
+                laborum?</p>
+            <p><a href="https://openweathermap.org/api" target="_blank">consultar documentación oficial</a></p>
+        </section>
+
+        <section>
+            <h2 id="autenticacion">Autenticación</h2>
+            <p>Para utilizar la API de OpenWeatherMap, es necesario obtener una clave de API. Una vez que se tiene la
+                clave,
+                se puede realizar solicitudes a los endpoints de la API.</p>
+            <p>Para obtener una clave de API, se debe crear una cuenta en el sitio web de OpenWeatherMap y generar una
+                clave de API desde el panel de usuario. La clave de API debe incluirse en cada solicitud realizada a la
+                API para autenticar y autorizar el acceso a los datos.</p>
+            <p><a href="https://openweathermap.org/api/coverage" target="_blank">Política de seguridad</a></p>
+        </section>
+
+        <section>
+            <h2 id="endpoint-usuarios">Endpoint de usuarios</h2>
+            <p> Para acceder a los datos de los usuarios, se puede utilizar el endpoint de usuarios. Este endpoint
+                permite
+                obtener información sobre los usuarios registrados en la plataforma, incluyendo su perfil, preferencias
+                y configuraciones.</p>
+            <p>Para acceder a este endpoint, se debe enviar una solicitud HTTP GET a la URL correspondiente, incluyendo
+                la clave de API en los encabezados de la solicitud. La respuesta del endpoint incluirá los datos del
+                usuario en formato JSON. </p>
+        </section>
+
+        <section>
+            <h2 id="endpoint-ciudades">Endpoint de ciudades</h2>
+            <p>Para obtener información meteorológica de una ciudad específica, se puede utilizar el endpoint de
+                ciudades. Este endpoint permite obtener datos como la temperatura actual, la humedad, la velocidad del
+                viento y las condiciones climáticas de la ciudad solicitada.</p>
+        </section>
+
+        <section>
+            <h2 id="contacto">contacto</h2>
+            <p>
+                Para cualquier pregunta o solicitud de soporte, por favor contáctenos a través de nuestro formulario de
+                contacto.
+            </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium asperiores minus libero, iste
+                temporibus impedit odio quisquam. Odio tempora dignissimos molestiae dicta eligendi doloremque aperiam
+                numquam facere velit tenetur. </p>
+            <p><a href="https://openweathermap.org/contact" target="_blank">Formulario de contacto</a></p>
+        </section>
+    
 </body>
 
 </html>
