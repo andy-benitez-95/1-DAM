@@ -24,7 +24,7 @@
                     631532151,
                     615452654
                 ],
-        "paginaWeb":"todavia no tiene",
+        "paginaWeb":null,
         "servicios":[
             "urgencias",
             "pediatria",
@@ -37,16 +37,16 @@
                 "nombre":"Alejandro",
                 "apellidos":"Romero Garcia",
                 "especialidad":"cardiologia",
-                "añosExperiencia":"12",
-                "disponible":"si",
-                "precioCosulta":75.50,
+                "añosExperiencia":12,
+                "disponible":true,
+                "precioConsulta":75.50,
                 "diaDeConsulta":[
                     "lunes",
                     "miercoles",
                     "viernes"
                 ],
                 "observaciones":[
-                    "ninguna"
+                    null
                 ]
             },
             {
@@ -54,9 +54,9 @@
                 "nombre":"Marta",
                 "apellidos":"Navarro Lopez",
                 "especialidad":"Pediatria",
-                "añosExperiencia":"8",
-                "disponible":"no",
-                "precioCosulta":60.00,
+                "añosExperiencia":8,
+                "disponible":false,
+                "precioConsulta":60.00,
                 "diaDeConsulta":[
                     "martes",
                     "miercoles",
@@ -72,28 +72,25 @@
                 "id":"P001",
                 "nombre":"Calos",
                 "apellidos":"Carvajal Benitez",
-                "edad":"31",
+                "edad":31,
                 "activo":true,
                 "grupoSanguineo":"A+",
                 "alergias":[
                     "polen",
                     "latex"
                 ],
-                "peso":"75"             
+                "peso":75             
 
             },
             {
                 "id":"P002",
                 "nombre":"Carmen",
                 "apellidos":"Carvajal Benitez",
-                "edad":"19",
+                "edad":19,
                 "activo":true,
                 "grupoSanguineo":"0+",
-                "alergias":[
-                    "polen",
-                    "latex"
-                ],
-                "peso":"50"             
+                "alergias":[],
+                "peso":50             
 
             }
         ]
