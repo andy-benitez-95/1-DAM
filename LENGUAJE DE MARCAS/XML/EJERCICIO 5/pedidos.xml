@@ -14,14 +14,14 @@
                     <marca>logitech</marca>
                     <precio>20.00</precio>
                     <cantidad>2</cantidad>
-                </producto>
-                <producto id="PR002">
+        </producto>
+         <producto id="PR002">
                     <nombre>raton</nombre>
                     <marca>logitech</marca>
                     <precio>15.00</precio>
                     <cantidad>1</cantidad>
         </producto>                
-        </lista_productos>
+    </lista_productos>
         <total>55.00</total>
     </pedido>
     <pedido id="2">
@@ -74,7 +74,7 @@
                 
     </lista_productos>  
     <total>560.00</total>
-    </pedido>
+                </pedidos>
 
             
 

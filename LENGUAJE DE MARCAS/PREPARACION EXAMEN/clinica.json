@@ -1,0 +1,113 @@
+{
+    "clinica":{
+        "datosGenerales":{
+            "nombre":"clinica salud Valencia",
+            "añoFundacion":2015,
+            "activo":true,
+            "horario":{
+                "apertura":"08:00",
+                "cierre":"21:00"
+            }
+        },
+        "direccion" :{
+                "calle": "calle colon 35",
+                "ciudad": "Valencia",
+                "codigoPostal":46021,
+                "coordenadas": {
+                    "latitud":"39.4699",
+                    "longitud": "-0.3763"
+                }           
+                
+            },
+        "email":"contacto@saludvalencia.example",
+        "telefonos": [
+                    631532151,
+                    615452654
+                ],
+        "paginaWeb":"todavia no tiene",
+        "servicios":[
+            "urgencias",
+            "pediatria",
+            "cardiologia",
+            "fisioterapia"
+            ],
+        "medicos":[
+            {
+                "id":"M001",
+                "nombre":"Alejandro",
+                "apellidos":"Romero Garcia",
+                "especialidad":"cardiologia",
+                "añosExperiencia":"12",
+                "disponible":"si",
+                "precioCosulta":75.50,
+                "diaDeConsulta":[
+                    "lunes",
+                    "miercoles",
+                    "viernes"
+                ],
+                "observaciones":[
+                    "ninguna"
+                ]
+            },
+            {
+                "id":"M002",
+                "nombre":"Marta",
+                "apellidos":"Navarro Lopez",
+                "especialidad":"Pediatria",
+                "añosExperiencia":"8",
+                "disponible":"no",
+                "precioCosulta":60.00,
+                "diaDeConsulta":[
+                    "martes",
+                    "miercoles",
+                    "jueves"
+                ],
+                "observaciones":[
+                    "vacaciones"
+                ]   
+            }
+        ],
+        "pacientes":[
+            {
+                "id":"P001",
+                "nombre":"Calos",
+                "apellidos":"Carvajal Benitez",
+                "edad":"31",
+                "activo":true,
+                "grupoSanguineo":"A+",
+                "alergias":[
+                    "polen",
+                    "latex"
+                ],
+                "peso":"75"             
+
+            },
+            {
+                "id":"P002",
+                "nombre":"Carmen",
+                "apellidos":"Carvajal Benitez",
+                "edad":"19",
+                "activo":true,
+                "grupoSanguineo":"0+",
+                "alergias":[
+                    "polen",
+                    "latex"
+                ],
+                "peso":"50"             
+
+            }
+        ]
+
+
+
+            
+
+        }
+        
+            
+
+        }
+
+            
+
+    
