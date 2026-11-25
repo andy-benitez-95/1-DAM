@@ -14,8 +14,8 @@
                 "ciudad": "Valencia",
                 "codigoPostal":46021,
                 "coordenadas": {
-                    "latitud":"39.4699",
-                    "longitud": "-0.3763"
+                    "latitud":39.4699,
+                    "longitud":-0.3763
                 }           
                 
             },
@@ -93,17 +93,9 @@
                 "peso":50             
 
             }
-        ]
-
-
-
-            
-
-        }
-        
-            
-
-        }
+        ]           
+        }      
+ }
 
             
 
